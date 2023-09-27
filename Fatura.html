@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registrar/Calcular Fatura</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/check.css">
+	<link rel="stylesheet" href="css/indexCalcFatura.css">
+</head>
+<body>
+
+	<div id="layout">
+		<h3>Calcular faturas:</h3><br>
+		<form action="php/calculo.php" method="post">
+			<label for="mes">Selecione o Mês:</label>
+			<select name="mes" id="mes" required>
+				<option value="none">Selecione</option>
+				<option value="Janeiro">Janeiro</option>
+				<option value="Fevereiro">Fevereiro</option>
+				<option value="Março">Março</option>
+				<option value="Abril">Abril</option>
+				<option value="Maio">Maio</option>
+				<option value="Junho">Junho</option>
+				<option value="Julho">Julho</option>
+				<option value="Agosto">Agosto</option>
+				<option value="Setembro">Setembro</option>
+				<option value="Outubro">Outubro</option>
+				<option value="Novembro">Novembro</option>
+				<option value="Dezembro">Dezembro</option>
+			</select>
+
+			</br></br>
+
+			<label for="n1">1. Nome:</label>
+			<input type="text" name="n1" id="n1">
+			<label for="c1">Valor:</label>
+			<input type="text" name="c1" id="c1"></br></br>
+
+			<label for="n2">2. Nome:</label>
+			<input type="text" name="n2" id="n2">
+			<label for="c2">Valor:</label>
+			<input type="text" name="c2" id="c2"></br></br>
+
+			<label for="n3">3. Nome:</label>
+			<input type="text" name="n3" id="n3">
+			<label for="c3">Valor:</label>
+			<input type="text" name="c3" id="c3"></br></br>
+
+			<label for="n4">4. Nome:</label>
+			<input type="text" name="n4" id="n4">
+			<label for="c4">Valor:</label>
+			<input type="text" name="c4" id="c4"></br></br>
+
+			<label for="n5">5. Nome:</label>
+			<input type="text" name="n5" id="n5">
+			<label for="c5">Valor:</label>
+			<input type="text" name="c5" id="c5"></br></br>
+
+			<label for="n6">6. Nome:</label>
+			<input type="text" name="n6" id="n6">
+			<label for="c6">Valor:</label>
+			<input type="text" name="c6" id="c6"></br></br>
+
+			<label for="n7">7. Nome:</label>
+			<input type="text" name="n7" id="n7">
+			<label for="c7">Valor:</label>
+			<input type="text" name="c7" id="c7"></br></br>
+
+			<label for="n8">8. Nome:</label>
+			<input type="text" name="n8" id="n8">
+			<label for="c8">Valor:</label>
+			<input type="text" name="c8" id="c8"></br></br>
+
+			<label for="n9">9. Nome:</label>
+			<input type="text" name="n9" id="n9">
+			<label for="c9">Valor:</label>
+			<input type="text" name="c9" id="c9"></br></br>
+
+			<label for="n10">10. Nome:</label>
+			<input type="text" name="n10" id="n10">
+			<label for="c10">Valor:</label>
+			<input type="text" name="c10" id="c10"></br></br>
+
+			<label for="n11">11. Nome:</label>
+			<input type="text" name="n11" id="n11">
+			<label for="c11">Valor:</label>
+			<input type="text" name="c11" id="c11"></br></br>
+
+			<label for="n12">12. Nome:</label>
+			<input type="text" name="n12" id="n12">
+			<label for="c12">Valor:</label>
+			<input type="text" name="c12" id="c12"></br></br>
+
+			<input type="submit" name="enviar" id="enviar" value="enviar" class="enviar-input">
+		</form>
+	</div>
+
+</body>
+<script>
+	// Selecione o botão pelo ID
+	var meuBotaoSubmit = document.getElementById("enviar");
+	// Defina o novo valor do botão
+	meuBotaoSubmit.value = "Registrar";
+</script>
+</html>

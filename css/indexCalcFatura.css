@@ -1,0 +1,46 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: lightgrey;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div#layout {
+	padding: 20px;
+	text-align: center;
+	background-color: grey;
+	width: 30%;
+	height: 80%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px;
+	font-size: 1vw;
+}
+
+
+label {
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+input {
+	
+	border-radius: 5px;
+	text-align: center;
+	width: 100px;
+	font-size: 1vw;
+}
+
+.enviar-input {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+select {
+	font-size: 1vw;
+}
